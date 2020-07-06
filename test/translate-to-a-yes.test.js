@@ -1,7 +1,7 @@
 // IMPORT MODULES under test here:
 // import example from '../example.js';
 
-import { translateToAYes } from '../translate-to-a-yes.js'
+import { translateToAYes } from '../src/translate-to-a-yes.js';
 
 const test = QUnit.test;
 

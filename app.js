@@ -12,7 +12,11 @@ quizButton.addEventListener('click', () => {
 
     const user = prompt('What is your name?');
     const playing = confirm('Would you like to play a game?');
-    if (!playing) return;
+    if (!playing) {
+        scoreSpan.textContent = `That's OK ${user}, maybe some other time.`;
+        return;
+    }
+    
     const answer1 = prompt('Question 1');
     const answer2 = prompt('Question 2');
     const answer3 = prompt('Question 3');

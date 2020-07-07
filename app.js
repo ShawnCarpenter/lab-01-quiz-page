@@ -19,7 +19,7 @@ quizButton.addEventListener('click', () => {
     }
     
     const answer1 = prompt('Do elves get the right of way in Iceland?');
-    const answer2 = prompt('Does rotton shark sound delicious?');
+    const answer2 = prompt('Does rotten shark sound delicious?');
     const answer3 = prompt('Should bankers be jailed when they crash the economy?');
     // console.log(answer1, answer2, answer3);
     if (translateToAYes(answer1)) score++;

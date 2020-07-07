@@ -1,11 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Quicksand:wght@500&display=swap');
 
 body {
+
+    /* --navy-blue: hsla(239, 97%, 37%, 1);
+--dark-cornflower-blue: hsla(214, 99%, 54%, 1);
+--star-command-blue: hsla(201, 100%, 71%, 1);
+--blue-green: hsla(195, 100%, 78%, 1);
+--cerulean-crayola: hsla(190, 100%, 85%, 1);
+--sky-blue-crayola: hsla(190, 68%, 89%, 1);
+--sky-blue-crayola-2: hsla(189, 40%, 94%, 1);
+--blizzard-blue: hsla(190, 29%, 96%, 1);
+--powder-blue: hsla(190, 19%, 97%, 1); */
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    --color1: rgb(203, 235, 252);
+    /* --color1: rgb(203, 235, 252);
     --color2: rgb(49, 49, 228);
     --color3: rgb(133, 73, 231);
     --color4 :rgb(194, 8, 188);
+    --color5: rgb(4, 114, 22); */
+    --color1: hsla(190, 68%, 89%, 1);
+    --color2: rgb(49, 49, 228);
+    --color3: hsla(214, 99%, 54%, 1);
+    --color4 :hsla(239, 97%, 37%, 1);
     --color5: rgb(4, 114, 22);
     
     --header-height: 80px;
@@ -102,8 +117,7 @@ footer {
 }
   
 button {
-    /* color: var(--color1); */
-    background-color: var(--color5);
+    background-color: var(--color1);
     border-radius: 15px;
 }
 
@@ -111,3 +125,6 @@ li img {
     width: 400px;
 }
 
+.info-section {
+    background-color: var(--color3);
+}

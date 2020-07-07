@@ -1,18 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento&family=Quicksand:wght@500&display=swap');
 
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-    --color1: hsla(202, 30%, 85%, 1);
-    --color2: hsla(240, 41%, 70%, 1);
-    --color3: hsla(263, 53%, 48%, 1);
-    --color4 :hsla(302, 52%, 29%, 1);
-    --color5: hsla(177, 91%, 48%, 1);
+    --color1: rgb(203, 235, 252);
+    --color2: rgb(49, 49, 228);
+    --color3: rgb(133, 73, 231);
+    --color4 :rgb(194, 8, 188);
+    --color5: rgb(4, 114, 22);
     
     --header-height: 80px;
     --shadow: 0px 10px 20px -12px rgba(0,0,0,0.45);
     --gutter: 30px;
     --footer-height: 25px;
     
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     background-color: var(--color2);
 }
 
@@ -32,11 +33,10 @@ section {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: var(--gutter);
-    padding-bottom: var(--gutter);
-    margin-top: var(--gutter);
+    padding: var(--gutter);
     margin-bottom: var(--gutter);
     border: solid 2px var(--color1);
+    border-radius: 10px;
 }
 
 header {
@@ -54,12 +54,18 @@ footer {
     box-shadow: var(--shadow);
 }
 h1 {
-    font-size: xx-large;;
+    font-size: xx-large;
+    font-family: 'Fondamento', cursive;
 }
 
 h2 {
     font-size: 1.8rem;
     font-weight: bold;
+    font-family: 'Fondamento', cursive;
+}
+h3 {
+    font-family: 'Fondamento', cursive;
+    font-size: 1.3rem;
 }
 
 .gutter-right {
@@ -99,5 +105,9 @@ button {
     /* color: var(--color1); */
     background-color: var(--color5);
     border-radius: 15px;
+}
+
+li img {
+    width: 400px;
 }
 

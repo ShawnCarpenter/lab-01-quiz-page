@@ -120,12 +120,32 @@ footer {
 button {
     background-color: var(--color1);
     border-radius: 15px;
+    margin: 10px;
+    font-size: larger;
+    padding: 10px;
 }
 
 li img {
     width: 400px;
+    border-radius: 10px;
 }
 
 .info-section {
     background-color: var(--color3);
+}
+
+.all-right {
+    background-color: yellow;
+}
+
+.two-right {
+    background-color: var(--color3);
+}
+ 
+.one-right {
+    background-color: plum;
+}
+
+.none-right {
+    background-color: red;
 }
